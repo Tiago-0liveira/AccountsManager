@@ -13,3 +13,10 @@
 
 5. You're done! Now you just need to play with it so u get used to it and then if you want u can delete the Passwordkeeper.db and redo the step number 4 backwards(basically u would uncoment out from the line 23 to the 44 and run the code once so it set's the password and then comment it out again)
 
+#### I'm accepting suggestions for new functions or upgrades i could do, for example if a lot of people ask i could do this program but in tkinter because i know a lot of it so it wouldn't be that difficult.
+
+#### If you got any error just copy the error from the console and then post here on the "issues" column so i can search and try to fix it.
+
+#### If a lot of people like this program i can keep making changes to it that a lot of people request ( i have a request column aka to-do list ) btw im working on searching function rn.
+
+#### If this has errors or this post doesn't look that good or something it's because it's my first time publishing something here on github so be kind with me :D
