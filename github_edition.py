@@ -114,10 +114,7 @@ def show():
           newsitegroup.append(site.strip())
           newusergroup.append(user.strip())
      #print all the accounts
-     removed_count = 0
-
-     for x, list in enumerate(tuple[0]):
-          y = x + removed_count
+     for x, _ in enumerate(tuple[0]):
           nextsite, nextuser, nextpass = llist[x][0], llist[x][1], llist[x][2]
           while len(nextsite) < len(biggestsite):
                nextsite += " "
