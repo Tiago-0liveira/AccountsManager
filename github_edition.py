@@ -22,7 +22,7 @@ def encrypt(string, key):
 # database create
 ### \/ RUN THIS ONCE \/###
 
-"""conn = sqlite3.connect("Passwordkeeper.db")
+conn = sqlite3.connect("Passwordkeeper.db")
 bot = conn.cursor()
 bot.execute("CREATE TABLE IF NOT EXISTS passwordkeeper (site TEXT, user TEXT, password TEXT, key TEXT)")
 #insert your admin items here the important one is the password,
@@ -40,7 +40,7 @@ insertform = (
 )
 bot.execute("INSERT INTO passwordkeeper VALUES(?,?,?,?)", insertform)
 conn.commit()
-conn.close()"""
+conn.close()
 ### /\ RUN THIS ONCE ONLY  /\ ###
 
 
