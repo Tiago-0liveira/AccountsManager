@@ -235,7 +235,7 @@ if login():
           {Fore.GREEN}add{Style.RESET_ALL}        --> {Fore.GREEN}Adds{Style.RESET_ALL} a new item to the database
           {Fore.RED}delete{Style.RESET_ALL}     --> {Fore.RED}Delete's{Style.RESET_ALL} a item from the database
           change     --> Changes a value from the database
-          search     --> Searches a value in database
+          search     --> {Fore.RED}WIP{Style.RESET_ALL} Searches a value in database {Fore.RED}WIP{Style.RESET_ALL}
           {Fore.LIGHTBLACK_EX}close/quit --> Closes the program{Style.RESET_ALL}
           {Fore.LIGHTBLACK_EX}clear --> Clears the console{Style.RESET_ALL}
                     """)
