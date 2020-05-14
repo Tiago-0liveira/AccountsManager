@@ -242,7 +242,7 @@ if login():
           elif inputs in ["delete", "delet", "dele", "del", "de", "d", "-delete", "--delete"]: delete()
           elif inputs in ["change", "chang", "c", "-c", "-change", "--change"]:                change()    
           elif inputs in ["search", "searc", "sear", "sea", "s", "-s", "-search", "--search"]: search()
-          elif inputs in ["quit", "qui", "qu", "q", "exit", "ex", "gtfo", "getout", "gottagetout", "immaheadout", "bigbrain", "bigweiner"]:quit()
+          elif inputs in ["quit", "qui", "qu", "q", "exit", "ex", "gtfo", "getout", "gottagetout"]:quit()
           elif inputs in ["clear", "clea", "cle", "cls"]:                                      os.system("cls")
           else: first_time = True
 
